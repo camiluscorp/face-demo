@@ -20,3 +20,12 @@ En cada repositorio de Git donde desea usar Git LFS, seleccione los tipos de arc
 ## 3
 Ahora asegúrese de que .gitattributes es rastreado:
  `git add .gitattributes`
+
+# Requisitos
+Java 21
+Eclipse
+
+# Ejecucion
+Uso: java -jar face-demo.jar <img1> <img2> <resourcesDir>
+
+ `java -jar face-demo.jar /tmp/a.jpg /tmp/b.jpg src/main/resources`
