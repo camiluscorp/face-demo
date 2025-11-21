@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0  http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>face-demo</artifactId>
+  <version>1.0.0</version>
+  <name>Face Demo</name>
+  
+  <properties>
+    <maven.compiler.release>21</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <dependencies>
+    <!-- OpenCV con binarios nativos incluidos -->
+    <!-- 
+    <dependency>
+	    <groupId>org.bytedeco</groupId>
+	    <artifactId>opencv-platform</artifactId>
+	    <version>4.10.0-1.5.11</version>
+	</dependency>
+	-->
+	<dependency>
+	    <groupId>org.openpnp</groupId>
+	    <artifactId>opencv</artifactId>
+	    <version>4.9.0-0</version>
+	</dependency>
+
+    <!-- ONNX Runtime -->
+    <dependency>
+      <groupId>com.microsoft.onnxruntime</groupId>
+      <artifactId>onnxruntime</artifactId>
+      <version>1.19.2</version>
+    </dependency>
+  </dependencies>
+  
+</project>
